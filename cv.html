@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Javier Díez Pérez — CV</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --accent: #7c5cbf;
+  --accent-light: #ede8f5;
+  --accent-mid: #a48fd4;
+  --black: #1a1a2e;
+  --dark: #2d2d44;
+  --mid: #6b6b80;
+  --light: #9b9bae;
+  --border: #e0dce8;
+  --sidebar-bg: #f6f4fa;
+  --white: #fff;
+}
+
+body {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: var(--dark);
+  background: var(--white);
+  font-size: 11px;
+  line-height: 1.36;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 205px 1fr;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* ── Left Column ── */
+.sidebar {
+  background: var(--sidebar-bg);
+  padding: 1.2rem 1.1rem;
+  border-right: 2px solid var(--accent-light);
+}
+
+.photo-container {
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+
+.photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2.5px solid var(--accent-light);
+  filter: grayscale(20%);
+}
+
+.sidebar h1 {
+  font-family: 'Outfit', 'DM Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--black);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.1rem;
+  line-height: 1.2;
+}
+
+.sidebar .subtitle {
+  font-size: 0.66rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.sidebar .contact-list {
+  list-style: none;
+  margin-bottom: 0.8rem;
+}
+
+.sidebar .contact-list li {
+  font-size: 0.7rem;
+  color: var(--dark);
+  margin-bottom: 0.28rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.sidebar .contact-list li i {
+  width: 13px;
+  text-align: center;
+  color: var(--accent-mid);
+  font-size: 0.65rem;
+}
+
+.sidebar-section {
+  margin-bottom: 0.7rem;
+}
+
+.sidebar-section h2 {
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 0.45rem;
+  padding-bottom: 0.18rem;
+  border-bottom: 1.5px solid var(--accent);
+}
+
+.skill-group {
+  margin-bottom: 0.38rem;
+}
+
+.skill-group h3 {
+  font-size: 0.67rem;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 0.08rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.skill-group h3 i {
+  font-size: 0.58rem;
+  color: var(--accent-mid);
+  width: 12px;
+  text-align: center;
+}
+
+.skill-tags {
+  font-size: 0.64rem;
+  color: var(--mid);
+  line-height: 1.42;
+}
+
+.lang-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.68rem;
+  margin-bottom: 0.18rem;
+}
+
+.lang-item .level {
+  color: var(--light);
+  font-size: 0.62rem;
+}
+
+.volunteer {
+  font-size: 0.64rem;
+  color: var(--mid);
+  line-height: 1.42;
+}
+
+.volunteer li {
+  margin-bottom: 0.12rem;
+}
+
+/* ── Right Column ── */
+.main {
+  padding: 1.3rem 1.5rem;
+}
+
+.pub-list a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+
+.pub-list a:hover {
+  text-decoration: underline;
+}
+
+.main .section {
+  margin-bottom: 0.45rem;
+}
+
+.main h2 {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1.5px solid var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.main h2 i {
+  font-size: 0.65rem;
+  color: var(--accent-mid);
+}
+
+.profile-text {
+  font-size: 0.75rem;
+  color: var(--dark);
+  line-height: 1.48;
+}
+
+.job {
+  margin-bottom: 0.38rem;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.04rem;
+}
+
+.job-title {
+  font-size: 0.77rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.job-date {
+  font-size: 0.67rem;
+  color: var(--light);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.job-company {
+  font-size: 0.69rem;
+  color: var(--mid);
+  margin-bottom: 0.15rem;
+}
+
+.job ul {
+  padding-left: 0.85rem;
+  margin: 0;
+}
+
+.job li {
+  font-size: 0.7rem;
+  color: var(--dark);
+  margin-bottom: 0.06rem;
+  line-height: 1.38;
+}
+
+.edu-item {
+  margin-bottom: 0.28rem;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.edu-degree {
+  font-size: 0.77rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.edu-date {
+  font-size: 0.67rem;
+  color: var(--light);
+}
+
+.edu-school {
+  font-size: 0.69rem;
+  color: var(--mid);
+}
+
+/* Earlier roles compact list */
+.earlier-roles {
+  list-style: none;
+  padding: 0;
+}
+
+.earlier-roles li {
+  font-size: 0.68rem;
+  color: var(--dark);
+  margin-bottom: 0.12rem;
+  display: flex;
+  gap: 0.35rem;
+  line-height: 1.38;
+}
+
+.earlier-roles .er-date {
+  color: var(--light);
+  font-size: 0.63rem;
+  white-space: nowrap;
+  min-width: 55px;
+}
+
+.earlier-roles .er-role {
+  font-weight: 500;
+}
+
+.earlier-roles .er-company {
+  color: var(--mid);
+  font-weight: 400;
+}
+
+/* Publications */
+.pub-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pub-list li {
+  font-size: 0.67rem;
+  color: var(--dark);
+  margin-bottom: 0.18rem;
+  padding-left: 0.7rem;
+  position: relative;
+  line-height: 1.42;
+}
+
+.pub-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.48em;
+  width: 4px;
+  height: 4px;
+  background: var(--accent-mid);
+  border-radius: 50%;
+}
+
+.pub-list li em {
+  color: var(--mid);
+}
+
+@media print {
+  body { font-size: 11px; }
+  .page { max-width: 100%; }
+  .sidebar { background: var(--sidebar-bg) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .job { break-inside: avoid; }
+  .edu-item { break-inside: avoid; }
+  @page { margin: 0; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- LEFT COLUMN -->
+  <aside class="sidebar">
+    <div class="photo-container">
+      <img src="photo.jpg" alt="Javier Díez Pérez" class="photo" onerror="this.style.display='none'">
+    </div>
+    <h1>Javier Díez Pérez</h1>
+    <div class="subtitle">Senior Data Scientist &amp; AI Innovation Specialist</div>
+
+    <ul class="contact-list">
+      <li><i class="fa-solid fa-location-dot"></i> Tarragona, Spain</li>
+      <li><i class="fa-solid fa-phone"></i> +34 654 052 443</li>
+      <li><i class="fa-solid fa-envelope"></i> jdiezperezj@gmail.com</li>
+      <li><i class="fa-solid fa-globe"></i> jdiez.github.io</li>
+    </ul>
+
+    <div class="sidebar-section">
+      <h2>Core Skills</h2>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-code"></i> Programming</h3>
+        <div class="skill-tags">Python, R, SQL, Scala, Rust, HTML/CSS</div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-brain"></i> Data Science &amp; ML</h3>
+        <div class="skill-tags">scikit-learn, XGBoost, PySpark, Dask, Ray, H2O, SHAP, lime, Pandas, Polars</div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-robot"></i> AI &amp; Agents</h3>
+        <div class="skill-tags">RAG/RIG, Multimodal RAG, Multi-agent systems (Agno), LLM chatbots, Knowledge Graphs</div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-diagram-project"></i> Knowledge Graphs</h3>
+        <div class="skill-tags">RDF/LPG, SPARQL, Neo4j, Ontologies, Causal KGs, Biomedical KGs, Data Modelling</div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-database"></i> Data Stores</h3>
+        <div class="skill-tags">PostgreSQL, MySQL, DuckDB, MongoDB, Hive, Elasticsearch, RDF</div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-arrows-spin"></i> Pipelines &amp; CI/CD</h3>
+        <div class="skill-tags">Prefect, Airflow, Nextflow, Snakemake, GitHub Actions, pytest, Docker</div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-cloud"></i> Cloud &amp; DevOps</h3>
+        <div class="skill-tags">AWS (Big Data &amp; ML), GCP, Terraform, Packer</div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-dna"></i> Bioinformatics</h3>
+        <div class="skill-tags">Bioconductor, Biopython, NGS pipelines, GATK, SAMTools, scanpy</div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-chart-line"></i> Statistics &amp; GIS</h3>
+        <div class="skill-tags">Experiment design, multivariate analysis, PostGIS, QGIS</div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <h2>Languages</h2>
+      <div class="lang-item"><span>Spanish</span><span class="level">Native</span></div>
+      <div class="lang-item"><span>English</span><span class="level">Proficient</span></div>
+      <div class="lang-item"><span>French</span><span class="level">Good</span></div>
+      <div class="lang-item"><span>Portuguese</span><span class="level">Basic</span></div>
+    </div>
+
+    <div class="sidebar-section">
+      <h2>Volunteering</h2>
+      <ul class="volunteer" style="list-style:none; padding:0;">
+        <li>CRAM Marine Animals Rehab (2024–25)</li>
+        <li>Madrid4Refugees coding teacher</li>
+        <li>Save the Children tutor</li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- RIGHT COLUMN -->
+  <main class="main">
+
+    <div class="section">
+      <h2><i class="fa-solid fa-user"></i> Profile</h2>
+      <p class="profile-text">Data scientist and AI engineer with 15+ years in bioinformatics, data engineering, and ML across pharma and biotech. Building agentic AI applications, multimodal RAG systems, and multi-agent pipelines (Agno) at AstraZeneca. Expertise in knowledge graphs (RDF, LPG, biomedical ontologies), data modelling, oncology, genomics, and health data platforms.</p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">AstraZeneca · Barcelona</span>
+          <span class="job-date">2023 — Present</span>
+        </div>
+        <div class="job-company" style="font-weight:600; color:var(--black); margin-bottom:0.08rem;">Senior Innovation Specialist DS &amp; AI <span style="font-weight:400; color:var(--light);">(ODSAI, 2025–Present)</span></div>
+        <ul>
+          <li>Built agentic conversational app for structured/unstructured data (RAG/RIG) with multi-agent architecture using Agno framework</li>
+          <li>Developed multimodal RAG for enterprise knowledge retrieval</li>
+          <li>Alexion 2025 spring accelerator — innovation modelling via Strategyzer's framework</li>
+        </ul>
+        <div class="job-company" style="font-weight:600; color:var(--black); margin-top:0.2rem; margin-bottom:0.08rem;">Data Product Lead — Oncology DS Platforms <span style="font-weight:400; color:var(--light);">(2023–2025)</span></div>
+        <ul>
+          <li>Led data product operations for PDx mouse models and ENABL platform</li>
+          <li>Designed and maintained oncology data science platform infrastructure</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Data Engineer &amp; Python Developer</span>
+          <span class="job-date">2022 — 2023</span>
+        </div>
+        <div class="job-company">Contractor · Madrid</div>
+        <ul>
+          <li>Data products for pharma (GSK) and food (HdR); Python packages for data validation &amp; FAIRification</li>
+          <li>GCP ETL pipeline development with integrated validation framework</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Lead Bioinformatician &amp; Data Scientist</span>
+          <span class="job-date">2021 — 2022</span>
+        </div>
+        <div class="job-company">PharmaMar · Madrid</div>
+        <ul>
+          <li>R&amp;D bioinformatics lead: cancer genomics, drug development, biomarker discovery</li>
+          <li>Multiomics (DNA-seq, RNA-seq, ChIP-seq, ATAC-seq) and clinical trial data integration</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Senior Bioinformatician &amp; Data Scientist</span>
+          <span class="job-date">2020 — 2021</span>
+        </div>
+        <div class="job-company">Fujitsu · Madrid</div>
+        <ul>
+          <li>Digital transition at European CoE for Data Intelligence — EHR APIs, SNOMED-CT, entity recognition</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Senior Bioinformatics Scientist</span>
+          <span class="job-date">2019 — 2020</span>
+        </div>
+        <div class="job-company">HiFiBio · Paris</div>
+        <ul>
+          <li>Single cell RNA-seq analysis for TCR in TILs; sc-targeted RNAseq pipeline development</li>
+          <li>Algorithm development for cell barcode UMI assignment and sequence correction</li>
+          <li>Unsupervised ML data analysis for cell-type and TCR chain-type characterization</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Data Analyst &amp; Python Developer</span>
+          <span class="job-date">2017 — 2020</span>
+        </div>
+        <div class="job-company">Freelancer · Madrid</div>
+        <ul>
+          <li>Predictive analytics tools for banking, insurance, and telco industries</li>
+          <li>Big data science and ML with Python and R ecosystem; package and tool development</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Senior Bioinformatician</span>
+          <span class="job-date">2016</span>
+        </div>
+        <div class="job-company">Wellcome Trust Sanger Institute · Cambridge, UK</div>
+        <ul>
+          <li>Somatic mutation signatures on DNA repair defective cell lines</li>
+          <li>Whole genome sequencing analysis of paired normal/tumor samples: SNV, Indel, CNVs</li>
+          <li>Whole exome sequencing analysis from TCGA (The Cancer Genome Atlas)</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Bioinformatics Analyst</span>
+          <span class="job-date">2015</span>
+        </div>
+        <div class="job-company">Congenica Ltd. · Cambridge, UK</div>
+        <ul>
+          <li>Splicing mutation effect analysis, mutation-created splice sites and cryptic splice sites</li>
+          <li>Bioinformatic analysis of trio and family from NGS data</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Bioinformatician — Molecular Pathology</span>
+          <span class="job-date">2014 — 2015</span>
+        </div>
+        <div class="job-company">Royal Marsden Hospital NHS Foundation Trust · London, UK</div>
+        <ul>
+          <li>NGS pipelines for tumor molecular pathology: panel targeted, immunoglobulin/TCR, amplicon analysis</li>
+          <li>Amplicon molecular barcoding deduplication pipeline</li>
+          <li>Study Bioinformatician at FoRMAT (molecular characterisation of advanced GI tumors)</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Bioinformatician — Clinical Neurogenetics</span>
+          <span class="job-date">2013 — 2014</span>
+        </div>
+        <div class="job-company">UCL / National Hospital for Neurology · London, UK</div>
+        <ul>
+          <li>NGS pipelines for clinical neurogenetics: exome, panel targeted, mtDNA heteroplasmy analysis</li>
+          <li>Database development for clinical information, diagnostic test results, and annotation</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Field Bioinformatics Specialist</span>
+          <span class="job-date">2012 — 2013</span>
+        </div>
+        <div class="job-company">Life Technologies · Mexico DF, Mexico</div>
+        <ul>
+          <li>Set up bioinformatic support and training for Ion Torrent (PGM/Proton) and SOLiD platforms across Latin America</li>
+          <li>Project design, troubleshooting for whole genome, resequencing, and targeted sequencing</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Bioinformatician — Epigenetics &amp; Cancer Biology</span>
+          <span class="job-date">2011 — 2012</span>
+        </div>
+        <div class="job-company">IDIBELL (Bellvitge Biomedical Research Institute) · Barcelona</div>
+        <ul>
+          <li>EPINORC project: Epigenetic Disruption of Non-Coding RNAs in Human Cancer (ERC Advanced Grant)</li>
+          <li>Methylation arrays, bisulphite sequencing, WGS, exome NGS, RNA-seq, ChIP-seq analysis</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Bioinformatics Research Assistant</span>
+          <span class="job-date">2008 — 2010</span>
+        </div>
+        <div class="job-company">CRG / Parc de Recerca Biomèdica de Barcelona</div>
+        <ul>
+          <li>De novo genome assembly, resequencing and genome analysis of Saccharomyces cerevisiae</li>
+          <li>Developed DeathBase: relational database and web front-end for cell death curated proteins</li>
+          <li>Characterization of putative human BH3-only proteins; cancer susceptibility gene analysis</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Research Assistant</span>
+          <span class="job-date">2005 — 2008</span>
+        </div>
+        <div class="job-company">CSIC (CNB &amp; CBM-SO) · Madrid</div>
+        <ul>
+          <li>Human centrosome proteome study and CentrosomeDB database development</li>
+          <li>Cell death genetics in Drosophila; ML approach for phenotype trait analysis</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+
+      <div class="edu-item">
+        <div class="edu-header">
+          <span class="edu-degree">Specialist — Quantitative Research &amp; Statistics</span>
+          <span class="edu-date">2006 — 2007</span>
+        </div>
+        <div class="edu-school">Polytechnic University of Madrid &amp; CSIC</div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-header">
+          <span class="edu-degree">DEA / Master — Biochemistry &amp; Molecular Biology</span>
+          <span class="edu-date">2005 — 2007</span>
+        </div>
+        <div class="edu-school">Universidad Autónoma de Madrid</div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-header">
+          <span class="edu-degree">B.Sc. Biochemistry</span>
+          <span class="edu-date">2001 — 2004</span>
+        </div>
+        <div class="edu-school">Universidad Autónoma de Madrid</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-file-lines"></i> Selected Publications</h2>
+      <p style="font-size:0.62rem; font-weight:600; color:var(--accent); margin-bottom:0.15rem; margin-top:0.1rem;">PEER-REVIEWED PUBLICATIONS</p>
+      <ul class="pub-list">
+        <li>Costanzo F, Martínez Diez M, Santamaría Nuñez G, Díaz-Hernández JI, Genes Robles CM, <strong>Díez Pérez J</strong>, Compe E, Ricci R, Li TK, Coin F, Martínez Leal JF, Garrido-Martín EM, Egly JM. "Promoters of ASCL1- and NEUROD1-dependent genes are specific targets of lurbinectedin in SCLC cells." <em>EMBO Mol Med</em>, 2022. <a href="https://pubmed.ncbi.nlm.nih.gov/35263037/">PMID:35263037</a></li>
+        <li>Jiménez-Guardeño JM, Ortega-Prieto AM, Menéndez Moreno B, Maguire TJA, Richardson A, Díaz-Hernández JI, <strong>Diez Perez J</strong>, Zuckerman M, et al. "Drug repurposing based on a quantum-inspired method versus classical fingerprinting uncovers potential antivirals against SARS-CoV-2." <em>PLoS Comput Biol</em>, 2022. <a href="https://pubmed.ncbi.nlm.nih.gov/35849631/">PMID:35849631</a></li>
+        <li>Glodzik D, Morganella S, Davies H, ..., <strong>Diez-Perez J</strong>, ..., Nik-Zainal S. "A somatic-mutational process recurrently duplicates germline susceptibility loci and tissue-specific super-enhancers in breast cancers." <em>Nature Genetics</em>, 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28112740/">PMID:28112740</a></li>
+        <li>Galindo-Moreno J, Iurlaro R, El Mjiyad N, <strong>Díez-Pérez J</strong>, Gabaldón T, Muñoz-Pinedo C. "Apolipoprotein L2 contains a BH3-like domain but it does not behave as a BH3-only protein." <em>Cell Death Dis</em>, 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/24901046/">PMID:24901046</a></li>
+        <li>Heyn H, Li N, Ferreira HJ, Moran S, Pisano DG, Gomez A, <strong>Diez J</strong>, ..., Esteller M. "Distinct DNA methylomes of newborns and centenarians." <em>PNAS</em>, 2012. <a href="https://pubmed.ncbi.nlm.nih.gov/22689993/">PMID:22689993</a></li>
+        <li>Neurohr G, Naegeli A, Titos I, Theler D, Greber B, <strong>Díez J</strong>, Gabaldón T, Mendoza M, Barral Y. "A midzone-based ruler adjusts chromosome compaction to anaphase spindle length." <em>Science</em>, 2011. <a href="https://pubmed.ncbi.nlm.nih.gov/21393511/">PMID:21393511</a></li>
+        <li><strong>Díez J</strong>, Walter D, Muñoz-Pinedo C, Gabaldón T. "DeathBase: a database on structure, evolution and function of proteins involved in apoptosis and other forms of cell death." <em>Cell Death Differ</em>, 2010. <a href="https://pubmed.ncbi.nlm.nih.gov/20383157/">PMID:20383157</a></li>
+        <li>Nogales-Cadenas R, Abascal F, <strong>Díez-Pérez J</strong>, Carazo JM, Pascual-Montano A. "CentrosomeDB: a human centrosomal proteins database." <em>Nucleic Acids Res</em>, 2009. <a href="https://pubmed.ncbi.nlm.nih.gov/18971254/">PMID:18971254</a></li>
+        <li>Bonifaci N, Berenguer A, <strong>Díez J</strong>, Reina O, Medina I, Dopazo J, Moreno V, Pujana MA. "Biological processes, properties and molecular wiring diagrams of candidate low-penetrance breast cancer susceptibility genes." <em>BMC Med Genomics</em>, 2008. <a href="https://pubmed.ncbi.nlm.nih.gov/19094230/">PMID:19094230</a></li>
+      </ul>
+      <p style="font-size:0.62rem; font-weight:600; color:var(--accent); margin-bottom:0.15rem; margin-top:0.25rem;">PRESENTATIONS &amp; CONFERENCES</p>
+      <ul class="pub-list">
+        <li>Parmar C, Roudko V, Muckerson V, Blando J, Daniel J, <strong>Díez J</strong>, Gunda S, Mendoza Alcala A, Franco A, Stambolic I, Benchea C, Stewart R, Lai Z, Reis-Filho J, Scaltriti M, Palmer D. "AI-Derived H&amp;E Features Stratify Overall Survival and Suggest Differential Benefits in NEPTUNE (1L mNSCLC)." <em>AACR Annual Meeting</em>, San Diego, 2026</li>
+        <li>Moorcraft SY, González de Castro D, Cunningham D, Walker BA, Hulkki Wilson S, <strong>Díez Pérez J</strong>, et al. "FOrMAT: Feasibility of a molecular characterization approach to treatment of patients with advanced GI tumors." <em>J Clin Oncol</em> 33, 2015 (ASCO). <a href="https://doi.org/10.1200/JCO.2015.33.3_suppl.TPS227">DOI</a></li>
+        <li>McCall S, Polke JM, <strong>Díez-Pérez J</strong>, Gardiner A, Jaffer F, Nanji T, Pittman A, Hughes D, Hanna MG, Houlden H. "Next Generation Sequencing of Neuronal Channelopathies." <em>British Society for Genetic Medicine Annual Meeting</em>, Liverpool, 2013</li>
+        <li>"ION PROTON DATA ANALYSIS" — Mexico &amp; Latin America Ion Proton launch events, Life Technologies, 2012–2013</li>
+        <li>ASHG Annual Meeting 2012, San Francisco · RECOMB::DREAM 2011, Bellvitge · Mono-allelic Expression in Health and Disease, Barcelona · Systems Biology &amp; New Sequencing Technologies (SBNST), CRG Barcelona</li>
+      </ul>
+    </div>
+
+  </main>
+</div>
+</body>
+</html>
