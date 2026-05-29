@@ -8,7 +8,7 @@ Tarragona, Spain · +34 654 052 443 · jdiezperezj@gmail.com · jdiez.github.io
 
 ## Profile
 
-Data scientist and AI engineer with 15+ years in bioinformatics, data engineering, and ML across pharma and biotech. Building agentic AI applications, multimodal RAG systems, and multi-agent pipelines (Agno) at AstraZeneca. Expertise in knowledge graphs (RDF, LPG, biomedical ontologies), data modelling, oncology, genomics, and health data platforms.
+Data scientist and AI engineer with 15+ years in bioinformatics, data engineering, and ML across pharma and biotech. Building agentic AI applications, multimodal RAG systems, MCP servers, and multi-agent pipelines (Agno, Google ADK) at AstraZeneca. Expertise in knowledge graphs (RDF, LPG, biomedical ontologies), data modelling, oncology, genomics, and health data platforms.
 
 ---
 
@@ -18,7 +18,7 @@ Data scientist and AI engineer with 15+ years in bioinformatics, data engineerin
 |---|---|
 | **Programming** | Python, R, SQL, Scala, Rust, HTML/CSS |
 | **Data Science & ML** | scikit-learn, XGBoost, PySpark, Dask, Ray, H2O, SHAP, lime, Pandas, Polars |
-| **AI & Agents** | RAG/RIG, Multimodal RAG, Multi-agent systems (Agno), LLM chatbots, Knowledge Graphs |
+| **AI & Agents** | RAG, Multimodal RAG, GraphRAG, RIG, Multi-agent systems (Agno, ADK), MCP servers, Specs-driven development, Claude Code plugins, Agent skills, LLM chatbots, Knowledge Graphs |
 | **Knowledge Graphs** | RDF/LPG, SPARQL, Neo4j, Ontologies, Causal KGs, Biomedical KGs, Data Modelling |
 | **Data Stores** | PostgreSQL, MySQL, DuckDB, MongoDB, Hive, Elasticsearch, RDF |
 | **Pipelines & CI/CD** | Prefect, Airflow, Nextflow, Snakemake, GitHub Actions, pytest, Docker |
@@ -34,7 +34,9 @@ Data scientist and AI engineer with 15+ years in bioinformatics, data engineerin
 **2023 — Present**
 
 **Senior Innovation Specialist DS & AI** *(ODSAI, 2025–Present)*
-- Built agentic conversational app for structured/unstructured data (RAG/RIG) with multi-agent architecture using Agno framework
+- Built agentic conversational app for structured/unstructured data (RAG/RIG) with multi-agent architecture using Agno and Google ADK frameworks
+- Developed competitive intelligence multi-agent application following Strategyzer methodology
+- Built MCP servers for enterprise interaction with structured and unstructured data sources
 - Developed multimodal RAG for enterprise knowledge retrieval
 - Alexion 2025 spring accelerator — innovation modelling via Strategyzer's framework
 
