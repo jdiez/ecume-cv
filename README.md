@@ -16,8 +16,20 @@ Online CV hosted via GitHub Pages.
 
 ## Regenerate PDF
 
+### macOS
+
 ```bash
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
   --headless --disable-gpu --no-margins \
+  --print-to-pdf=cv.pdf file://$(pwd)/index.html
+```
+
+### Linux (Ubuntu/Debian)
+
+```bash
+# Install Chromium if not present
+sudo apt install -y chromium-browser
+
+chromium-browser --headless --disable-gpu --no-margins \
   --print-to-pdf=cv.pdf file://$(pwd)/index.html
 ```
