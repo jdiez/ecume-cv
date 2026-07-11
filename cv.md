@@ -1,6 +1,6 @@
 # Javier Díez Pérez
 
-**Senior Data Scientist & AI Innovation Specialist**
+**AI Engineer & Agentic Systems Architect**
 
 Tarragona, Spain · +34 654 052 443 · jdiezperezj@gmail.com · jdiez.github.io
 
@@ -8,7 +8,7 @@ Tarragona, Spain · +34 654 052 443 · jdiezperezj@gmail.com · jdiez.github.io
 
 ## Profile
 
-Data scientist and AI engineer with 15+ years in bioinformatics, data engineering, and ML across pharma and biotech. Building agentic AI applications, multimodal RAG systems, MCP servers, and multi-agent pipelines (Agno, Google ADK) at AstraZeneca. Expertise in knowledge graphs (RDF, LPG, biomedical ontologies), data modelling, oncology, genomics, and health data platforms.
+AI engineer building production agentic systems — multi-agent orchestration, MCP servers, RAG/GraphRAG pipelines, and tool-use architectures — at AstraZeneca. 15+ years spanning data science, bioinformatics, and ML across pharma and biotech. Designing reliable AI applications with evaluation frameworks, human-in-the-loop controls, and specs-driven development. Deep domain expertise in knowledge graphs (RDF, LPG, biomedical ontologies), oncology data platforms, and genomics.
 
 ---
 
@@ -16,11 +16,11 @@ Data scientist and AI engineer with 15+ years in bioinformatics, data engineerin
 
 | Domain | Technologies |
 |---|---|
-| **Programming** | Python, R, SQL, Scala, Rust, HTML/CSS |
+| **AI & Agents** | Multi-agent orchestration (Agno, ADK, LangGraph), MCP servers, RAG, Multimodal RAG, GraphRAG, RIG, Tool-use architectures, Agent evaluation & observability, Specs-driven development, Human-in-the-loop design, LLM application security, Claude Code plugins |
 | **Data Science & ML** | scikit-learn, XGBoost, PySpark, Dask, Ray, H2O, SHAP, lime, Pandas, Polars |
-| **AI & Agents** | RAG, Multimodal RAG, GraphRAG, RIG, Multi-agent systems (Agno, ADK), MCP servers, Specs-driven development, Claude Code plugins, Agent skills, LLM chatbots, Knowledge Graphs |
-| **Knowledge Graphs** | RDF/LPG, SPARQL, Neo4j, Ontologies, Causal KGs, Biomedical KGs, Data Modelling |
-| **Data Stores** | PostgreSQL, MySQL, DuckDB, MongoDB, Hive, Elasticsearch, RDF |
+| **Knowledge Graphs** | RDF/LPG, SPARQL, Neo4j, Ontologies, Causal KGs, Biomedical KGs, GraphRAG, Data Modelling |
+| **Programming** | Python, R, SQL, Scala, Rust, HTML/CSS |
+| **Data Stores** | PostgreSQL, MySQL, DuckDB, MongoDB, Hive, Elasticsearch, Vector DBs |
 | **Pipelines & CI/CD** | Prefect, Airflow, Nextflow, Snakemake, GitHub Actions, pytest, Docker |
 | **Cloud & DevOps** | AWS (Big Data & ML), GCP, Terraform, Packer |
 | **Bioinformatics** | Bioconductor, Biopython, NGS pipelines, GATK, SAMTools, scanpy |
