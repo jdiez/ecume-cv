@@ -173,3 +173,7 @@ By anchoring LLMs to Knowledge Graphs and Causal Graphs, I ensure that my autono
 - CRAM Marine Animals Rehab (2024–25)
 - Madrid4Refugees coding teacher
 - Save the Children tutor
+
+---
+
+*Last updated: August 23, 2026*
