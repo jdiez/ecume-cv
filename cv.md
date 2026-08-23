@@ -8,7 +8,7 @@ Tarragona, Spain · +34 654 052 443 · jdiezperezj@gmail.com · jdiez.github.io
 
 ## Profile
 
-AI engineer building production agentic systems — multi-agent orchestration, MCP servers, RAG/GraphRAG pipelines, and tool-use architectures — at AstraZeneca. 15+ years spanning data science, bioinformatics, and ML across pharma and biotech. Designing reliable AI applications with evaluation frameworks, human-in-the-loop controls, and specs-driven development. Deep domain expertise in knowledge graphs (RDF, LPG, biomedical ontologies), oncology data platforms, and genomics.
+Driven by the intersection of science and technology, I operate as a bold innovator who turns complex research into disruptive, scalable realities. I define the product vision, strategy, and roadmap for next-generation, multi-agentic platforms that challenge traditional industry workflows. Operating at the convergence of advanced machine learning, empirical research, and business development, I translate complex multimodal AI capabilities into high-value commercial tools. I am adept at navigating ambiguity, validating user needs in uncharted markets, and managing ethical guardrails around sensitive data. By driving orchestration-focused product design, I ensure we deliver compliant, high-impact products that solve genuine bottlenecks.
 
 ---
 
@@ -30,9 +30,16 @@ AI engineer building production agentic systems — multi-agent orchestration, M
 
 ## Experience
 
-### AstraZeneca · Barcelona
-**2023 — Present**
 
+### Independent consultant - Barcelona
+**2026 - Present**
+AI engineer building agentic innovation systems across Biotech amd Healthcare. As an AI-native innovator, I architect innovative, AI-native products from the ground up using Python, Agno, and Google ADK.
+While my technology is deeply technical, my philosophy is profoundly people-centric and patient centric.
+By anchoring LLMs to Knowledge Graphs and Causal Graphs, I ensure that my autonomous agents deliver deterministic, safe, and transparent outcomes that directly accelerate R&D pipelines, optimize clinical trials, and ultimately improve patient care.
+
+
+### AstraZeneca · Barcelona
+**2023 — 2026**
 **Senior Innovation Specialist DS & AI** *(ODSAI, 2025–Present)*
 - Built agentic conversational app for structured/unstructured data (RAG/RIG) with multi-agent architecture using Agno and Google ADK frameworks
 - Developed competitive intelligence multi-agent application following Strategyzer methodology
