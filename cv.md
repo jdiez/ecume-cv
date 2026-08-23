@@ -2,7 +2,7 @@
 
 **AI Engineer & Agentic Systems Architect**
 
-Tarragona, Spain · +34 654 052 443 · jdiezperezj@gmail.com · jdiez.github.io
+Greater Barcelona Area, Spain · +34 654 052 443 · jdiezperezj@gmail.com · jdiez.github.io
 
 ---
 
