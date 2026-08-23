@@ -1,6 +1,6 @@
 # Javier Díez Pérez
 
-**AI Engineer & Agentic Systems Architect**
+**AI Engineer, Innovator & Agentic Systems Architect**
 
 Greater Barcelona Area, Spain · +34 654 052 443 · jdiezperezj@gmail.com · jdiez.github.io
 
