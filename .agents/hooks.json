@@ -1,0 +1,10 @@
+{
+  "sync-checker": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "./scripts/check_sync.sh"
+      }
+    ]
+  }
+}
