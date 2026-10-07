@@ -59,12 +59,13 @@ Provided strategic and operational leadership for oncology data platforms, drivi
 
 ### Lead Bioinformatician & Data Scientist
 **PharmaMar · Madrid** · 2021 — 2022
-- R&D bioinformatics lead: cancer genomics, drug development, biomarker discovery
-- Multiomics (DNA-seq, RNA-seq, ChIP-seq, ATAC-seq) and clinical trial data integration
+- Led bioinformatics R&D strategy and directed cross-functional support for cancer genomics, drug development, and biomarker discovery pipelines across all R&D molecular biology programs.
+- Integrated multiomics data (DNA-seq, RNA-seq, ChIP-seq, ATAC-seq) with clinical trial data to enable advanced translational analyses for several patient cohorts for tens of research projects and clinical trials.
 
 ### Senior Bioinformatician & Data Scientist
 **Fujitsu · Madrid** · 2020 — 2021
-- Digital transition at European CoE for Data Intelligence — EHR APIs, SNOMED-CT, entity recognition
+- Supported the digital transition by mapping clinical data standards to intelligence platforms for the Spanish national drug regulator.
+- Built EHR APIs and developed SNOMED-CT mapping pipelines using named-entity recognition to improve healthcare data interoperability, handling thousands of patient HR from most regional healthcare system PRs.
 
 ### Senior Bioinformatics Scientist
 **HiFiBio · Paris** · 2019 — 2020
