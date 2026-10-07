@@ -43,7 +43,7 @@ By anchoring LLMs to Knowledge Graphs and Causal Graphs, I ensure that my autono
 **Senior Innovation Specialist DS & AI** *(2025–2026)*
 Spearheaded technical vision and assumed cross-functional leadership in designing and delivering agentic AI products, making complex enterprise data actionable for scientific and commercial teams.
 - Architected and deployed a production agentic conversational application combining RAG and Retrieval-Interleaved Generation (RIG) using a multi-agent design built on Agno and Google ADK, serving several internal teams.
-- Delivered a competitive-intelligence multi-agent application based on the Strategyzer methodology to support strategic business-unit decisions, driving key use-cases standarised analysis in hours.
+- Delivered a competitive-intelligence multi-agent application based on the Strategyzer methodology to support strategic business-unit decisions, reducing standardized analysis for key use-cases from weeks or months of manual work to just hours.
 - Developed enterprise MCP (Model Context Protocol) servers to expose complex data sources to LLM agents, standardizing agent-to-data interactions across hundreds of data sources.
 - Implemented multi-modal RAG pipelines for enterprise knowledge retrieval across text and image assets, reducing search time from days and weeks to minutes.
 
