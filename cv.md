@@ -40,7 +40,7 @@ By anchoring LLMs to Knowledge Graphs and Causal Graphs, I ensure that my autono
 
 ### AstraZeneca · Barcelona
 **2023 — 2026**
-**Senior Innovation Specialist DS & AI** *(2025–2026)*
+**Senior Innovation Specialist DS & AI** *(2024–2026)*
 Spearheaded technical vision and assumed cross-functional leadership in designing and delivering agentic AI products, making complex enterprise data actionable for scientific and commercial teams.
 - Architected and deployed a production agentic conversational application combining RAG and Retrieval-Interleaved Generation (RIG) using a multi-agent design built on Agno and Google ADK, serving several internal teams.
 - Delivered a competitive-intelligence multi-agent application based on the Strategyzer methodology to support strategic business-unit decisions, reducing standardized analysis for key use-cases from weeks or months of manual work to just hours.
