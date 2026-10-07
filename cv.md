@@ -40,16 +40,17 @@ By anchoring LLMs to Knowledge Graphs and Causal Graphs, I ensure that my autono
 
 ### AstraZeneca · Barcelona
 **2023 — 2026**
-**Senior Innovation Specialist DS & AI** *(ODSAI, 2025–Present)*
-- Built agentic conversational app for structured/unstructured data (RAG/RIG) with multi-agent architecture using Agno and Google ADK frameworks
-- Developed competitive intelligence multi-agent application following Strategyzer methodology
-- Built MCP servers for enterprise interaction with structured and unstructured data sources
-- Developed multimodal RAG for enterprise knowledge retrieval
-- Alexion 2025 spring accelerator — innovation modelling via Strategyzer's framework
+**Senior Innovation Specialist DS & AI** *(2025–2026)*
+Spearheaded technical vision and assumed cross-functional leadership in designing and delivering agentic AI products, making complex enterprise data actionable for scientific and commercial teams.
+- Architected and deployed a production agentic conversational application combining RAG and Retrieval-Interleaved Generation (RIG) using a multi-agent design built on Agno and Google ADK, serving several internal teams.
+- Delivered a competitive-intelligence multi-agent application based on the Strategyzer methodology to support strategic business-unit decisions, driving key use-cases standarised analysis in hours.
+- Developed enterprise MCP (Model Context Protocol) servers to expose complex data sources to LLM agents, standardizing agent-to-data interactions across hundreds of data sources.
+- Implemented multi-modal RAG pipelines for enterprise knowledge retrieval across text and image assets, reducing search time from days and weeks to minutes.
 
-**Data Product Lead — Oncology DS Platforms** *(2023–2025)*
-- Led data product operations for PDx mouse models and ENABL platform
-- Designed and maintained oncology data science platform infrastructure
+**Data Product Lead — Oncology Data Science Platforms** *(2023–2025)*
+Provided strategic and operational leadership for oncology data platforms, driving cross-team collaboration to power translational analytics.
+- Led data product operations for patient-derived xenograft (PDx) mouse models and the ENABL platform, ensuring reliable and FAIR data delivery to tens of teams / hundred of individuals analysts, managing several Tb of multiomics data.
+- Designed and maintained the oncology data science platform infrastructure to support discovery and translational analytics across tens of programs.
 
 ### Data Engineer & Python Developer
 **Contractor · Madrid** · 2022 — 2023
