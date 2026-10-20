@@ -17,11 +17,11 @@ Driven by the intersection of science and technology, I operate as a bold innova
 | Domain | Technologies |
 |---|---|
 | **AI & Agents** | Multi-agent orchestration (Agno, ADK, LangGraph), MCP servers, RAG, Multimodal RAG, GraphRAG, RIG, Tool-use architectures, Agent evaluation & observability, Specs-driven development, Human-in-the-loop design, LLM application security, Claude Code plugins |
-| **Data Science & ML** | scikit-learn, XGBoost, PySpark, Dask, Ray, H2O, SHAP, lime, Pandas, Polars |
+| **Data Science & ML** | scikit-learn, XGBoost, PySpark, Snowpark, Dask, Ray, H2O, SHAP, lime, Pandas, Polars |
 | **Knowledge Graphs** | RDF/LPG, SPARQL, Neo4j, Ontologies, Causal KGs, Biomedical KGs, GraphRAG, Data Modelling |
 | **Programming** | Python, R, SQL, Scala, Rust, HTML/CSS |
-| **Data Stores** | PostgreSQL, MySQL, DuckDB, MongoDB, Hive, Elasticsearch, Vector DBs |
-| **Pipelines & CI/CD** | Prefect, Airflow, Nextflow, Snakemake, GitHub Actions, pytest, Docker |
+| **Data Stores** | Snowflake, PostgreSQL, MySQL, DuckDB, MongoDB, Hive, Elasticsearch, Vector DBs |
+| **Pipelines & CI/CD** | dbt, Prefect, Airflow, Nextflow, Snakemake, GitHub Actions, pytest, Docker |
 | **Cloud & DevOps** | AWS (Big Data & ML), GCP, Terraform, Packer |
 | **Bioinformatics** | Bioconductor, Biopython, NGS pipelines, GATK, SAMTools, scanpy |
 | **Statistics & GIS** | Experiment design, multivariate analysis, PostGIS, QGIS |
