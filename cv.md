@@ -20,7 +20,7 @@ Driven by the intersection of science and technology, I operate as a bold innova
 | **Data Science & ML** | scikit-learn, XGBoost, PySpark, Snowpark, Dask, Ray, H2O, SHAP, lime, Pandas, Polars |
 | **Knowledge Graphs** | RDF/LPG, SPARQL, Neo4j, Ontologies, Causal KGs, Biomedical KGs, GraphRAG, Data Modelling |
 | **Programming** | Python, R, SQL, Scala, Rust, HTML/CSS |
-| **Data Stores** | Snowflake, Delta Lake, Unity Catalog, PostgreSQL, MySQL, DuckDB, MongoDB, Hive, Elasticsearch, Vector DBs |
+| **Data Stores** | Delta Lake, Unity Catalog, PostgreSQL, MySQL, DuckDB, MongoDB, Hive, Elasticsearch, Vector DBs |
 | **Pipelines & CI/CD** | dbt, DABs, Prefect, Airflow, Nextflow, Snakemake, GitHub Actions, pytest, Docker |
 | **Cloud & DevOps** | Databricks Data Engineering (Delta Lake, Unity Catalog, DABs, Agentic RAG), AWS (Big Data & ML), GCP, Terraform, Packer |
 | **Bioinformatics** | Bioconductor, Biopython, NGS pipelines, GATK, SAMTools, scanpy |
