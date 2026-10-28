@@ -128,8 +128,11 @@ Provided strategic and operational leadership for oncology data platforms, drivi
 ### Specialist — Quantitative Research & Statistics
 **Polytechnic University of Madrid & CSIC** · 2006 — 2007
 
-### DEA / Master — Biochemistry & Molecular Biology
+### Diploma de Estudios Avanzados (DEA) — Biochemistry & Molecular Biology
 **Universidad Autónoma de Madrid** · 2005 — 2007
+- **English Designation:** Postgraduate Advanced Research Qualification / Ph.D. Candidate (ABD Status)
+- **Framework Tier:** Pre-Bologna qualification classified under ISCED Level 8 / EQF Level 8 (Doctoral Level Framework)
+- **Scope:** Completed 60+ ECTS doctoral coursework & defended thesis (*Tesina*) to achieve official Research Proficiency (*Suficiencia Investigadora*)
 
 ### Licenciatura in Biochemistry (M.Sc. Equivalent)
 **Universidad Autónoma de Madrid** · 2001 — 2004

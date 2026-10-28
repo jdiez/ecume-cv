@@ -285,6 +285,19 @@ body {
   margin-top: 0.05rem;
 }
 
+.edu-list {
+  padding-left: 0.85rem;
+  margin-top: 0.15rem;
+  margin-bottom: 0.1rem;
+}
+
+.edu-list li {
+  font-size: 0.65rem;
+  color: var(--mid);
+  line-height: 1.35;
+  margin-bottom: 0.03rem;
+}
+
 /* Earlier roles compact list */
 .earlier-roles {
   list-style: none;
@@ -352,6 +365,7 @@ body {
   .sidebar { background: var(--sidebar-bg) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .job { break-inside: avoid; }
   .edu-item { break-inside: avoid; }
+  .publications-section { break-before: page; }
   @page { margin: 0; }
 }
 </style>
@@ -660,10 +674,15 @@ body {
 
       <div class="edu-item">
         <div class="edu-header">
-          <span class="edu-degree">DEA / Master — Biochemistry &amp; Molecular Biology</span>
+          <span class="edu-degree">Diploma de Estudios Avanzados (DEA) — Biochemistry &amp; Molecular Biology</span>
           <span class="edu-date">2005 — 2007</span>
         </div>
         <div class="edu-school">Universidad Autónoma de Madrid</div>
+        <ul class="edu-list">
+          <li><strong>English Designation:</strong> Postgraduate Advanced Research Qualification / Ph.D. Candidate (ABD Status)</li>
+          <li><strong>Framework Tier:</strong> Pre-Bologna qualification classified under ISCED Level 8 / EQF Level 8 (Doctoral Level Framework)</li>
+          <li><strong>Scope:</strong> Completed 60+ ECTS doctoral coursework &amp; defended thesis (<em>Tesina</em>) to achieve official Research Proficiency (<em>Suficiencia Investigadora</em>)</li>
+        </ul>
       </div>
 
       <div class="edu-item">
@@ -676,7 +695,7 @@ body {
       </div>
     </div>
 
-    <div class="section">
+    <div class="section publications-section">
       <h2><i class="fa-solid fa-file-lines"></i> Selected Publications</h2>
       <p style="font-size:0.62rem; font-weight:600; color:var(--accent); margin-bottom:0.15rem; margin-top:0.1rem;">PEER-REVIEWED PUBLICATIONS</p>
       <ul class="pub-list">
