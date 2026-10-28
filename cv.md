@@ -31,9 +31,14 @@ Driven by the intersection of science and technology, I operate as a bold innova
 ## Experience
 
 
-### Independent consultant - Barcelona
-**2026 - Present**
-AI engineer building agentic innovation systems across Biotech amd Healthcare. As an AI-native innovator, I architect innovative, AI-native products from the ground up using Python, Agno, and Google ADK.
+### Accenture · Barcelona
+**2026 — Present**
+**AI Software Engineer**
+- Designing and engineering enterprise agentic AI architectures, LLM-powered applications, and multi-agent orchestration systems to transform complex business workflows.
+
+### Independent Consultant · Barcelona
+**2026**
+AI engineer building agentic innovation systems across Biotech and Healthcare. As an AI-native innovator, I architect innovative, AI-native products from the ground up using Python, Agno, and Google ADK.
 While my technology is deeply technical, my philosophy is profoundly people-centric and patient centric.
 By anchoring LLMs to Knowledge Graphs and Causal Graphs, I ensure that my autonomous agents deliver deterministic, safe, and transparent outcomes that directly accelerate R&D pipelines, optimize clinical trials, and ultimately improve patient care.
 
