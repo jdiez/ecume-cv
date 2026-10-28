@@ -17,7 +17,7 @@ Driven by the intersection of science and technology, I operate as a bold innova
 | Domain | Technologies |
 |---|---|
 | **AI & Agents** | Multi-agent orchestration (Agno, ADK, LangGraph), MCP servers, RAG, Multimodal RAG, GraphRAG, Agentic RAG, RIG, Tool-use architectures, Agent evaluation & observability, Specs-driven development, Human-in-the-loop design, LLM application security, Claude Code plugins |
-| **Data Science & ML** | scikit-learn, XGBoost, PySpark, Snowpark, Dask, Ray, H2O, SHAP, lime, Pandas, Polars |
+| **Data Science & ML** | scikit-learn, XGBoost, PySpark, Dask, Ray, H2O, SHAP, lime, Pandas, Polars |
 | **Knowledge Graphs** | RDF/LPG, SPARQL, Neo4j, Ontologies, Causal KGs, Biomedical KGs, GraphRAG, Data Modelling |
 | **Programming** | Python, R, SQL, Scala, Rust, HTML/CSS |
 | **Data Stores** | Delta Lake, Unity Catalog, PostgreSQL, MySQL, DuckDB, MongoDB, Hive, Elasticsearch, Vector DBs |
