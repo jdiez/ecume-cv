@@ -1,6 +1,6 @@
 # Javier Díez Pérez
 
-**AI Product Innovation Lead & Agentic Systems Engineer**
+**AI Software Engineer**
 
 Greater Barcelona Area, Spain · +34 654 052 443 · jdiezperezj@gmail.com · jdiez.github.io
 
