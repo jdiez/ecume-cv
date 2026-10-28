@@ -131,8 +131,9 @@ Provided strategic and operational leadership for oncology data platforms, drivi
 ### DEA / Master — Biochemistry & Molecular Biology
 **Universidad Autónoma de Madrid** · 2005 — 2007
 
-### B.Sc. Biochemistry
+### Licenciatura in Biochemistry (M.Sc. Equivalent)
 **Universidad Autónoma de Madrid** · 2001 — 2004
+*Equivalence: MECES Level 3 (Máster) & EQF Level 7 · National Registry No. 2005015238*
 
 ---
 
