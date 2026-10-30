@@ -31,10 +31,12 @@ Driven by the intersection of science and technology, I operate as a bold innova
 ## Experience
 
 
+<!--
 ### Accenture · Barcelona
 **2026 — Present**
 **AI Native Software Engineering Spec**
 - Designing and engineering enterprise agentic AI architectures, LLM-powered applications, and multi-agent orchestration systems to transform complex business workflows.
+-->
 
 
 ### AstraZeneca · Barcelona
