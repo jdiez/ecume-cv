@@ -132,6 +132,7 @@ Provided strategic and operational leadership for oncology data platforms, drivi
 - **English Designation:** Postgraduate Advanced Research Qualification / Ph.D. Candidate (ABD Status)
 - **Framework Tier:** Pre-Bologna qualification classified under ISCED Level 8 / EQF Level 8 (Doctoral Level Framework)
 - **Scope:** Completed 60+ ECTS doctoral coursework & defended thesis (*Tesina*) to achieve official Research Proficiency (*Suficiencia Investigadora*)
+- **Thesis:** "Bioinformatic Analysis of the Human Centrosome Proteome"
 
 ### Licenciatura in Biochemistry (M.Sc. Equivalent)
 **Universidad Autónoma de Madrid** · 2001 — 2004
